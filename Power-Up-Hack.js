@@ -41,27 +41,35 @@ const quizDB = [
     },
      {
         question:"Q.6: what do you know about our company?",
-        a:"red",
-        b:"blue",
-        c:"orange",
-        d:"yellow",
+        a:"History",
+        b:"Products",
+        c:"Working Environment",
+        d:"All of the above",
+        ans:"ans4"
+    },
+     {
+        question:"Q.7: How well do you handle change?",
+        a:"By telling about your past experience with sudden changes ",
+        b:"I am good at handling changes",
+        c:"I can't handle it",
+        d:"I will give my best to handle such changes",
         ans:"ans1"
     },
      {
-        question:"Q.7: what is the Full form of js ?",
-        a:"Java Script",
-        b:"Java scale",
-        c:"Jail scale",
-        d:"Java Snipper",
-        ans:"ans1"
+        question:"Q.8: Do you work well under pressure?",
+        a:"working under pressure and working under no pressure works same for me",
+        b:"Sharing work experience you done before under pressure",
+        c:"I can't handle it",
+        d:"both a and b",
+        ans:"ans4"
     },
-     {
-        question:"Q.8: How Far is Moon from Earth?",
-        a:"100,000 Km",
-        b:"384,400 Km",
-        c:"808,000 Km",
-        d:"100,500 Km",
-        ans:"ans2"
+    {
+        question:"Q.9: How do you make important decisions?",
+        a:"I have never dealt with such situations",
+        b:"making decisions is hard but i will riley on my experience",
+        c:"by looking on both sides of coin like pros and cons",
+        d:"both b and c",
+        ans:"ans4"
     }
   ];
 

@@ -24,27 +24,33 @@ const quizDB = [
         ans:"ans2"
     },
     {
-        question:"Q.5: what do you know about our company? ?",
-        a:"4",
+        question:"Q.5: Where do you see yourself in five years?",
+        a:"I see my self in a good situation and till than i like to gain experience and learn new things and eventually become the manager",
         b:"The interviewer want to see how Commited you will be with the company anf about your long term and short term goals ",
         ans:"ans1"
     },
      {
         question:"Q.6: what do you know about our company?",
-        a:"red",
-        b:"blue",
+        a:"History,Products,Working Environment",
+        b:"Interviewer wants to see if you are serious about this job or this is just a random interview for a random job you found",
         ans:"ans1"
     },
      {
-        question:"Q.7: what is the Full form of js ?",
-        a:"Java Script",
-        b:"Java scale",
+        question:"Q.7:  How well do you handle change?",
+        a:"By telling about your past experience with sudden changes",
+        b:"Philosophy behind this is to know would you be able to cop-up with the change because companies come up with different strategies for different clients ",
         ans:"ans1"
     },
      {
-        question:"Q.8: How Far is Moon from Earth?",
-        a:"100,000 Km",
-        b:"384,400 Km",
+        question:"Q.8: Do you work well under pressure?",
+        a:"working under pressure and working under no pressure works same for me and sharing work experience you done before under pressure",
+        b:"Interviewer wants to know if you get stressed out while working under pressure because companies now-days want their employees to work in different situations as well as under great pressure",
+        ans:"ans2"
+    },
+     {
+        question:"Q.9: How do you make important decisions?",
+        a:"1making decisions is hard but i will riley on my experience by looking on both sides of coin like pros and cons",
+        b:"The interviewer wants to if he/she is hiring you for an crucial position so when you have to make how are you going to make them  ",
         ans:"ans2"
     }
   ];
@@ -107,7 +113,7 @@ loadQuestion();
          ShowScore.innerHTML =`
              <h3> LET'S TRY AGAIN !!! </h3>
          <button class="btn" onClick="location.reload()">SHOW REASONS</button>
-         <button class="btn"><a  href="Powe%20-Up-Hack.html" class="hover">PLAY AGAIN</a></button>
+         <button class="btn"><a  href="Power%20-Up-Hack.html" class="hover">PLAY AGAIN</a></button>
          `;
          ShowScore.classList.remove('scorearea');
      }
