@@ -85,3 +85,27 @@ input{
 .scorearea{
     display: none;
 }
+
+.start{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 800px;
+    height: 220px;
+    background: #78abc7;
+    border-radius: 10px;
+}
+.start h1{
+    margin: 60px 269.4px;
+    font-size: 60px;
+    cursor: pointer;
+}
+.start:hover{
+    background-color: #f03a53;
+    transition: .3s;
+}
+.happy{
+    text-decoration: none;
+    color: #8e44ad;
+}
